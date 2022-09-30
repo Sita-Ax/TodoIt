@@ -1,10 +1,10 @@
 using Xunit;
-using TodoConsoleApp;
-using TodoConsoleApp.Models;
-using TodoConsoleApp.Data;
+using TodoIt;
+using TodoIt.Models;
+using TodoIt.Data;
 using System;
 
-namespace TestTodoConsoleApp.ModelsTest
+namespace TodoIt.ModelsTest
 {
     public class PersonTest 
     {

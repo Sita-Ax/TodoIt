@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TodoConsoleApp.Data
+namespace TodoIt.Data
 {
     public class PersonSequencer
     {

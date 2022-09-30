@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TodoConsoleApp.Data;
-using TodoConsoleApp.Models;
+using TodoIt.Data;
+using TodoIt.Models;
 
-namespace TestTodoConsoleApp.DataTest
+namespace TodoIt.DataTest
 {
     public class TodoSeviceTest
     {

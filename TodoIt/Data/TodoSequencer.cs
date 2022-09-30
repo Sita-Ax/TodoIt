@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TodoConsoleApp.Models;
+using TodoIt.Models;
 
-namespace TodoConsoleApp.Data
+namespace TodoIt.Data
 {
     public class TodoSequencer
     {

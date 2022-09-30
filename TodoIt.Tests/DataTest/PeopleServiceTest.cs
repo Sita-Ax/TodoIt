@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TodoConsoleApp.Data;
-using TodoConsoleApp;
-using TodoConsoleApp.Models;
+using TodoIt.Data;
+using TodoIt;
+using TodoIt.Models;
 
-namespace TestTodoConsoleApp.DataTest
+namespace TodoIt.DataTest
 {
     public class PeopleServiceTest
     {
@@ -22,7 +22,9 @@ namespace TestTodoConsoleApp.DataTest
         {
             //Arrange
             PeopleService peopleTesting = new PeopleService();
+            peopleTesting.Clear();
             peopleTesting.CreateNewPerson("Lina", "Lunn");
+
             int expected = peopleCase.Size();
             int expSize = 1;
             //Act
