@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoIt", "TodoIt\TodoIt.csproj", "{BD9824ED-1A61-4909-AB94-E49325EF3E86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoIt.Tests", "TodoIt.Tests\TodoIt.Tests.csproj", "{B50F63ED-1104-4A44-8CB8-80F110857AA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD9824ED-1A61-4909-AB94-E49325EF3E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD9824ED-1A61-4909-AB94-E49325EF3E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD9824ED-1A61-4909-AB94-E49325EF3E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD9824ED-1A61-4909-AB94-E49325EF3E86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B50F63ED-1104-4A44-8CB8-80F110857AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50F63ED-1104-4A44-8CB8-80F110857AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B50F63ED-1104-4A44-8CB8-80F110857AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B50F63ED-1104-4A44-8CB8-80F110857AA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43E87181-250F-4066-8B38-7B0617D53428}
+	EndGlobalSection
+EndGlobal
